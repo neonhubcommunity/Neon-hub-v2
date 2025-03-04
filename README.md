@@ -1,4 +1,4 @@
-shared.LoaderTitle = "Feito Por Neon Community";
+shared.LoaderTitle = "Đăng Ký Kênh Min Gaming";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -102,7 +102,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Criador: Neon Community",
+    Text = "Youtube: Min Gaming",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -310,7 +310,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/obfalchx/testfluent/refs/heads/main/FluentTrau"))();
 local v15 = v14:CreateWindow({
-    Title = "Neon Community",
+    Title = "Min Gaming",
     SubTitle = "",
     TabWidth = 160,
     Theme = "Light",
@@ -320,49 +320,49 @@ local v15 = v14:CreateWindow({
 });
 local v16 = {
     Home = v15:AddTab({
-        Title = "Informações"
+        Title = "Thông Tin"
     }),
     Main = v15:AddTab({
-        Title = "Auto Farm"
+        Title = "Cày"
     }),
     Sea = v15:AddTab({
-        Title = "Events"
+        Title = "Sự Kiện"
     }),
     ITM = v15:AddTab({
-        Title = "Items"
+        Title = "Vật Phẩm"
     }),
     Setting = v15:AddTab({
-        Title = "Configurações"
+        Title = "Cài Đặt"
     }),
     Status = v15:AddTab({
-        Title = "Servidor"
+        Title = "Máy Chủ"
     }),
     Stats = v15:AddTab({
-        Title = "Stats"
+        Title = "Chỉ Số"
     }),
     Player = v15:AddTab({
-        Title = "Jogador"
+        Title = "Người Chơi"
     }),
     Teleport = v15:AddTab({
-        Title = "Teletranporte"
+        Title = "Dịch Chuyển"
     }),
     Visual = v15:AddTab({
-        Title = "Visual"
+        Title = "Giả"
     }),
     Fruit = v15:AddTab({
-        Title = "Fruta"
+        Title = "Trái"
     }),
     Raid = v15:AddTab({
-        Title = "Raid"
+        Title = "Tập Kích"
     }),
     Race = v15:AddTab({
-        Title = "Raça"
+        Title = "Tộc"
     }),
     Shop = v15:AddTab({
-        Title = "Loja"
+        Title = "Cửa Hàng"
     }),
     Misc = v15:AddTab({
-        Title = "Outros"
+        Title = "Khác"
     })
 };
 local v17 = v14.Options;
@@ -2674,10 +2674,10 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
     game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy();
 end
 v16.Home:AddButton({
-    Title = "Discord Da Neon",
-    Description = "Discord Do Script",
+    Title = "Discord",
+    Description = "Giao Lưu",
     Callback = function()
-        setclipboard("https://discord.gg/FB7pWVun");
+        setclipboard("https://discord.gg/J37PW97j6a");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
@@ -3871,8 +3871,8 @@ if Sea3 then
             _G.AutoFindPrehistoric = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Neon Community",
-                    Content = "A ilha De Lava Foi Encontrada!",
+                    Title = "Min Gaming",
+                    Content = "Đảo Dung Nham Tìm Thấy",
                     Duration = 10
                 });
                 v513 = true;
@@ -3965,8 +3965,8 @@ if Sea3 then
             _G.AutoFindMirage = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Neon Community",
-                    Content = "Ilha Da Miragem Encontrada",
+                    Title = "Min Gaming",
+                    Content = "Đảo Bí Ẩn Tìm Thấy",
                     Duration = 10
                 });
                 v513 = true;
@@ -4059,8 +4059,8 @@ if Sea3 then
             _G.AutoFindFrozen = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Neon Community",
-                    Content = "Ilha Do Leviatã Encontrada",
+                    Title = "Min Gaming",
+                    Content = "Đảo Leviathan Tìm Thấy",
                     Duration = 10
                 });
                 v513 = true;
@@ -9321,6 +9321,7 @@ spawn(function()
     end
 end);
 v14:Notify({
-    Title = "Neon Community",
-    Content = "Carregamento Concluido",
+    Title = "Min Gaming",
+    Content = "Tải Xong",
     Duration = 10
+});
