@@ -364,7 +364,7 @@ Shop = v15:AddTab({
 Misc = v15:AddTab({
     Title = "Outro"
    }),
-};
+ };
 local v17 = v14.Options;
 local v18 = game.PlaceId;
 if (v18 == 2753915549) then
