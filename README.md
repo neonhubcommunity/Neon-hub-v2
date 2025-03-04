@@ -1,4 +1,4 @@
-shared.LoaderTitle = "Đăng Ký Kênh Min Gaming";
+shared.LoaderTitle = "Feito Por Neon Community";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
@@ -102,7 +102,7 @@ local v8 = CreateObject("TextLabel", {
     Name = "UserName",
     Parent = v6,
     BackgroundTransparency = 1,
-    Text = "Youtube: Min Gaming",
+    Text = "Criador: Neon Community",
     Position = UDim2.new(0, 75, 0, 10),
     Size = UDim2.new(0, 200, 0, 50),
     Font = Enum.Font.GothamBold,
@@ -310,7 +310,7 @@ v5:Destroy();
 -- end);
 local v14 = loadstring(game:HttpGet("https://raw.githubusercontent.com/obfalchx/testfluent/refs/heads/main/FluentTrau"))();
 local v15 = v14:CreateWindow({
-    Title = "Min Gaming",
+    Title = "Neon Community",
     SubTitle = "",
     TabWidth = 160,
     Theme = "Light",
@@ -3871,8 +3871,8 @@ if Sea3 then
             _G.AutoFindPrehistoric = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Min Gaming",
-                    Content = "Đảo Dung Nham Tìm Thấy",
+                    Title = "Neon Community",
+                    Content = "A ilha De Lava Foi Encontrada!",
                     Duration = 10
                 });
                 v513 = true;
@@ -3965,8 +3965,8 @@ if Sea3 then
             _G.AutoFindMirage = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Min Gaming",
-                    Content = "Đảo Bí Ẩn Tìm Thấy",
+                    Title = "Neon Community",
+                    Content = "Ilha Da Miragem Encontrada",
                     Duration = 10
                 });
                 v513 = true;
@@ -4059,8 +4059,8 @@ if Sea3 then
             _G.AutoFindFrozen = false;
             if not v513 then
                 v14:Notify({
-                    Title = "Min Gaming",
-                    Content = "Đảo Leviathan Tìm Thấy",
+                    Title = "Neon Community",
+                    Content = "Ilha Do Leviatã Encontrada",
                     Duration = 10
                 });
                 v513 = true;
@@ -9321,7 +9321,7 @@ spawn(function()
     end
 end);
 v14:Notify({
-    Title = "Min Gaming",
-    Content = "Tải Xong",
+    Title = "Neon Community",
+    Content = "Carregamento Concluido",
     Duration = 10
 });
