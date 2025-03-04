@@ -93,7 +93,7 @@ local v7 = CreateObject("ImageLabel", {
     Name = "UserImage",
     Parent = v6,
     BackgroundTransparency = 1,
-    Image = "rbxassetid://13717478897",
+    Image = "rbxassetid://128060996916093",
     Position = UDim2.new(0, 15, 0, 10),
     Size = UDim2.new(0, 50, 0, 50)
 });
@@ -2630,7 +2630,7 @@ v23.BorderSizePixel = 0;
 v23.Position = UDim2.new(0.120833337 - 0.1, 0, 0.0952890813 + 0.01, 0);
 v23.Size = UDim2.new(0, 50, 0, 50);
 v23.Draggable = true;
-v23.Image = "http://www.roblox.com/asset/?id=13717478897";
+v23.Image = "http://www.roblox.com/asset/?id=128060996916093";
 v24.Parent = v23;
 v24.CornerRadius = UDim.new(0, 12);
 v25.Parent = v23;
@@ -2674,10 +2674,10 @@ if game:GetService("ReplicatedStorage").Effect.Container:FindFirstChild("Respawn
     game:GetService("ReplicatedStorage").Effect.Container.Respawn:Destroy();
 end
 v16.Home:AddButton({
-    Title = "Discord",
-    Description = "Giao Lưu",
+    Title = "Discord Da Neon",
+    Description = "Discord Do Script",
     Callback = function()
-        setclipboard("https://discord.gg/J37PW97j6a");
+        setclipboard("https://discord.gg/FB7pWVun");
     end
 });
 _G.FastAttackStrix_Mode = "Super Fast Attack";
@@ -4684,7 +4684,7 @@ if Sea3 then
         end
         for v728, v729 in pairs(game:GetService("Workspace").Map.MysticIsland:GetDescendants()) do
             if v729:IsA("MeshPart") then
-                if (v729.MeshId == "rbxassetid://6745037796") then
+                if (v729.MeshId == "rbxassetid://128060996916093") then
                     return v729;
                 end
             end
@@ -9324,4 +9324,3 @@ v14:Notify({
     Title = "Neon Community",
     Content = "Carregamento Concluido",
     Duration = 10
-});
