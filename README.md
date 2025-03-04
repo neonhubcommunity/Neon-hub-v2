@@ -1,4 +1,4 @@
-shared.LoaderTitle = "Fito Por Neon Community";
+shared.LoaderTitle = "Feito Por Neon Community";
 shared.LoaderKeyFrames = {
     [1] = {
         1,
